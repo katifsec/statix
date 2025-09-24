@@ -26,6 +26,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/katifsec/statix.git
+
 cd statix
 
 -----------------------------------------------------------------------------
@@ -85,5 +86,6 @@ Multi-file analysis
 Allow analyzing a folder of binaries and produce a combined report.
 
 --------------------------------------------  END OF README ------------------------------------------------
+
 
 
