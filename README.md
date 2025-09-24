@@ -71,7 +71,7 @@ Option	Description
 --json FILE	Save analysis report as JSON
 
 --------------------------------------------------------------------------------------------------------
-1️⃣ update will soon :
+update will soon :
 
 YARA integration 
 
@@ -89,6 +89,7 @@ Multi-file analysis
 
 
 --------------------------------------------  END OF README ------------------------------------------------
+
 
 
 
