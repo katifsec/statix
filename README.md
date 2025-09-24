@@ -1,3 +1,4 @@
+
 Statix – Static Malware Analysis Tool
 
 Statix is a  Python-based static analysis tool designed for security researchers and malware analysts. It helps in quickly gathering insights from binary files by extracting hashes, strings, entropy, suspicious imports and functions . 
@@ -29,6 +30,8 @@ git clone https://github.com/katifsec/statix.git
 cd statix
 
 -----------------------------------------------------------------------------
+
+
 Install required Python libraries:
 
 pip install -r requirements.txt
@@ -38,14 +41,19 @@ pip install -r requirements.txt
 
 sudo apt install radare2   # Linux
 -----------------------------------------------------------------------------
-Usage
+
+
+Usage:
+
 python statix.py [binary_file] [options]
 
-Example:
+Example : python statix.py malware_sample.exe --use-r2 
 
-python statix.py malware_sample.exe --use-r2 --html report.html
+- ![MOF Output Demo](https://github.com/katifsec/statix/blob/main/screenshot.png)
+
 
 -----------------------------------------------------------------------------
+
 
 Positional arguments:
 
@@ -55,11 +63,27 @@ Optional arguments:
 
 Option	Description
 --use-r2	Use Radare2 for function extraction (requires r2 installed)
+
 --r2-fast	Use faster Radare2 analysis (af) instead of full analysis (aa)
+
 --no-disasm	Skip Capstone disassembly heuristics
+
 --json FILE	Save analysis report as JSON
 
+--------------------------------------------------------------------------------------------------------
+1️⃣ update will soon :
 
+YARA integration 
+Scan for known malware signatures
+Dependency / library checks
+List DLL/shared library dependencies and highlight unusual ones.
+Function call analysis
+Detect suspicious API calls automatically (e.g., VirtualAlloc, WriteProcessMemory).
+Interactive HTML report
+Use collapsible tables for sections.
+Add tooltips for suspicious findings.
+Multi-file analysis
+Allow analyzing a folder of binaries and produce a combined report.
 
-
+--------------------------------------------  END OF README ------------------------------------------------
 
