@@ -16,6 +16,9 @@ Cross-Platform Support: Works on Windows, Linux, and macOS binaries.
 
 Optional Radare2 Integration: Extract function information for advanced disassembly.
 
+- ![MOF Output Demo](https://github.com/katifsec/statix/icon.png)
+
+
 -----------------------------------------------------------------------------
 
 Installation
@@ -55,6 +58,7 @@ Option	Description
 --r2-fast	Use faster Radare2 analysis (af) instead of full analysis (aa)
 --no-disasm	Skip Capstone disassembly heuristics
 --json FILE	Save analysis report as JSON
+
 
 
 
