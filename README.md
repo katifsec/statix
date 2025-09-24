@@ -22,7 +22,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/statix.git
+git clone https://github.com/katifsec/statix.git
 cd statix
 
 -----------------------------------------------------------------------------
@@ -55,6 +55,6 @@ Option	Description
 --r2-fast	Use faster Radare2 analysis (af) instead of full analysis (aa)
 --no-disasm	Skip Capstone disassembly heuristics
 --json FILE	Save analysis report as JSON
---html FILE	Save analysis report as HTML
+
 
 
