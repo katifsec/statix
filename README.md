@@ -74,18 +74,22 @@ Option	Description
 1️⃣ update will soon :
 
 YARA integration 
+
 Scan for known malware signatures
-Dependency / library checks
-List DLL/shared library dependencies and highlight unusual ones.
+
 Function call analysis
-Detect suspicious API calls automatically (e.g., VirtualAlloc, WriteProcessMemory).
+
 Interactive HTML report
+
 Use collapsible tables for sections.
+
 Add tooltips for suspicious findings.
+
 Multi-file analysis
-Allow analyzing a folder of binaries and produce a combined report.
+
 
 --------------------------------------------  END OF README ------------------------------------------------
+
 
 
 
