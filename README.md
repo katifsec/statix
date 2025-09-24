@@ -1,9 +1,11 @@
+- ![MOF Output Demo](https://github.com/katifsec/statix/blob/main/icon.png)
 
 Statix – Static Malware Analysis Tool
 
 Statix is a  Python-based static analysis tool designed for security researchers and malware analysts. It helps in quickly gathering insights from binary files by extracting hashes, strings, entropy, suspicious imports and functions . 
 
-Features
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Features :
 
 File Hashing: Computes MD5,  and SHA256 for quick file fingerprinting.
 
@@ -16,9 +18,6 @@ Entropy Analysis: Calculates overall and sliding window entropy for packed/encry
 Cross-Platform Support: Works on Windows, Linux, and macOS binaries.
 
 Optional Radare2 Integration: Extract function information for advanced disassembly.
-
-- ![MOF Output Demo](https://github.com/katifsec/statix/blob/main/icon.png)
-
 
 -----------------------------------------------------------------------------
 
@@ -86,4 +85,5 @@ Multi-file analysis
 Allow analyzing a folder of binaries and produce a combined report.
 
 --------------------------------------------  END OF README ------------------------------------------------
+
 
