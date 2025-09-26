@@ -1,6 +1,6 @@
 - ![MOF Output Demo](https://github.com/katifsec/statix/blob/main/icon.png)
 
-Statix – Static Malware Analysis Tool
+Statix – Static Analysis Tool
 
 Statix is a  Python-based static analysis tool designed for security researchers and malware analysts. It helps in quickly gathering insights from binary files by extracting hashes, strings, entropy, suspicious imports and functions . 
 
@@ -89,6 +89,7 @@ Multi-file analysis
 
 
 --------------------------------------------  END OF README ------------------------------------------------
+
 
 
 
