@@ -87,10 +87,8 @@ Add tooltips for suspicious findings.
 
 Multi-file analysis
 
-
---------------------------------------------  END OF README ------------------------------------------------
-
-
+Stay Strong and stay consist
+----------------------------------------  END OF README ------------------------------------------
 
 
 
