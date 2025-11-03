@@ -87,7 +87,7 @@ Add tooltips for suspicious findings.
 
 Multi-file analysis
 
-Stay Strong and stay consist
+<br>Stay Strong and stay consist</br>
 ----------------------------------------  END OF README ------------------------------------------
 
 
